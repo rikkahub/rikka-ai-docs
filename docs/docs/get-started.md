@@ -2,7 +2,7 @@
 
 ## 下载并安装
 
-首先下载并安装RikkaHub, 请前往[下载页面](/download)下载.
+首先下载并安装RikkaHub, 请前往[下载页面](../download.md)下载.
 
 :::warning 注意
 RikkaHub是免费应用，请不要在任何地方购买RikkaHub. 因此造成的经济损失与本人无关.
