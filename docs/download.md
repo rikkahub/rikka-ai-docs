@@ -19,13 +19,26 @@ const content = ref('haha')
 
 <div v-if="version">
   <h2>{{ version.version }}</h2>
-  <div v-html="md.render(version.changelog)" />
+  <div v-html="md.render(version.changelog)" class="changelog"/>
   <ul>
     <li v-for="item in version.downloads" :key="item.name">
-      <a :href="item.url" :download="item.name">{{ item.name }}</a>
+      <a :href="item.url" :download="item.name">
+        {{ item.name }}
+      </a>
+      <span v-if="item.size">
+          ({{ item.size }})
+      </span>
     </li>
   </ul>
 </div>
 <div v-else>
   正在获取最新版本...
 </div>
+
+<style scoped>
+.changelog {
+  background: var(--vp-custom-block-info-bg);
+  padding: 10px 16px;
+  border-radius: 5px;
+}
+</style>
