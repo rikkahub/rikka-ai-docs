@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: 文档
       link: /docs/get-started
+    - theme: alt
+      text: 加入群聊
+      link: https://qm.qq.com/q/I8MSU0FkOu
 
 features:
   - title: 多提供商支持
