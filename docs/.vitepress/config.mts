@@ -21,8 +21,7 @@ export default defineConfig({
           items: [
             { text: "快速开始", link: "/docs/basic/get-started" },
             { text: "常见问题", link: "/docs/basic/qa" },
-            // { text: "提供商配置", link: "/docs/provider" },
-            // { text: "搜索配置", link: "/docs/search" },
+            { text: "技术名称解释", link: "/docs/basic/keywords" },
           ],
         },
       ],
