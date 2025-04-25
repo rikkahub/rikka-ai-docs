@@ -15,7 +15,7 @@ hero:
       link: /download
     - theme: alt
       text: 文档
-      link: /docs/get-started
+      link: /docs/basic/get-started
     - theme: alt
       text: 加入群聊
       link: https://qm.qq.com/q/I8MSU0FkOu
