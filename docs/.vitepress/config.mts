@@ -6,6 +6,15 @@ export default defineConfig({
   title: "RikkaHub",
   description: "全能Android AI助手",
   lang: "zh-CN",
+  head: [
+    [
+      "link",
+      {
+        rel: "icon",
+        href: "/favicon.ico",
+      },
+    ],
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
