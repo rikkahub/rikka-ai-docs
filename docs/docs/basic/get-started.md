@@ -1,31 +1,31 @@
-# 快速开始
+# Quick Start
 
-## 下载并安装
+## Download and Install
 
-首先下载并安装RikkaHub, 请前往[下载页面](../../download.md)下载.
+First, download and install RikkaHub. Please go to the [download page](../../download.md) to download.
 
-:::warning 注意
-RikkaHub是免费应用，请不要在任何地方购买RikkaHub. 因此造成的经济损失与本人无关.
+:::warning Note
+RikkaHub is a free application. Please do not purchase RikkaHub anywhere. Any economic losses caused by this are not related to me.
 :::
 
-## 配置AI提供商
+## Configure AI Providers
 
-1. 启动RikkaHub, 点击左上角按钮, 展开侧边栏.
-2. 然后点击"设置"按钮, 进入设置页面.
-3. 点击"提供商"按钮, 进入提供商配置页面.
-4. 这里会显示当前已有的提供商, 如果有你需要的AI提供商，你可以直接输入你的API Key. 如果没有你需要的AI提供商, 你可以点击右上角的加号，添加一个提供商.
-5. 提供商添加完可以添加盒子图标来添加模型
+1. Launch RikkaHub, click the button on the top left to expand the sidebar.
+2. Then click the "Settings" button to enter the settings page.
+3. Click the "Providers" button to enter the provider configuration page.
+4. This will show the existing providers. If you have the AI provider you need, you can directly enter your API Key. If you don't have the AI provider you need, you can click the plus sign in the upper right corner to add a provider.
+5. After adding a provider, you can click the box icon to add a model.
 
-添加完即可回到主页开始使用
+After adding, you can return to the homepage to start using it.
 
-:::tip 提示
-如果要自己添加提供商，注意Base URL以`/v1`这样的后缀结尾，例如`https://api.openai.com/v1`.
+:::tip Tip
+If you want to add a provider yourself, note that the Base URL ends with a suffix like `/v1`, for example `https://api.openai.com/v1`.
 
-RikkaHub会在你提供的URL基础是添加`/chat/completions`等路径作为请求路径.
+RikkaHub will add paths like `/chat/completions` to the URL you provide as the request path.
 :::
 
-## 结语
+## Conclusion
 
-到这里，你已经可以开始使用RikkaHub了. 如果有什么问题，可以加入我们的官方群寻求帮助.
+By now, you can start using RikkaHub. If you have any questions, you can join our official group for help.
 
-你还可以查看其他文档来了解如何使用RikkaHub.
+You can also check other documents to learn how to use RikkaHub.

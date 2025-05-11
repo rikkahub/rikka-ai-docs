@@ -1,6 +1,8 @@
-# 下载   
+---
+# Download
+---
 
-下载RikkaHub
+Download RikkaHub
 
 <script setup lang="ts">
 import { ref } from 'vue'
@@ -32,7 +34,7 @@ const content = ref('haha')
   </ul>
 </div>
 <div v-else>
-  正在获取最新版本...
+  Getting latest version...
 </div>
 
 <style scoped>

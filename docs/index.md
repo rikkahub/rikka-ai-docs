@@ -4,34 +4,34 @@ layout: home
 
 hero:
   name: "RikkaHub"
-  text: "全能Android AI助手"
-  tagline: 快速接入各种AI模型
+  text: "All-in-one Android AI Assistant"
+  tagline: Quickly integrate various AI models
   image:
     src: /icon.png
     alt: RikkaHub
   actions:
     - theme: brand
-      text: 下载
+      text: Download
       link: /download
     - theme: alt
-      text: 文档
+      text: Documentation
       link: /docs/basic/get-started
     - theme: alt
-      text: 加入群聊
-      link: https://qm.qq.com/q/I8MSU0FkOu
+      text: Discord
+      link: https://discord.gg/9weBqxe5c4
 
 features:
-  - title: 多提供商支持
-    details: 支持基于OpenAI, Google协议的各种供应商，支持自定义token, baseUrl
+  - title: Multi-Provider
+    details: Supports various LLM providers based on OpenAI and Google protocols, supports custom tokens and baseUrl
     icon: 💻
-  - title: 原生应用
-    details: 原生技术开发，启动速度飞快，内存占用低
+  - title: Native
+    details: Developed with native technology, incredibly fast startup speed, low memory usage
     icon: 🚀
-  - title: 优雅设计
-    details: 简洁界面设计，基于Material You风格，并支持预测性返回等现代特性
+  - title: Elegant Design
+    details: Simple interface design, based on Material You style, and supports modern features like predictive back gestures
     icon: 🎨
-  - title: 搜索接入
-    details: 支持接入各种搜索API, 提升LLM准确性
+  - title: Search Integration
+    details: Supports integrating various search APIs to improve LLM accuracy
     icon: 🔍
 ---
 

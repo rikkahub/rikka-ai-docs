@@ -1,25 +1,25 @@
-# 常见问题
+# Frequently Asked Questions
 
-## 有iOS版本吗？
+## Is there an iOS version?
 
-没有，RikkaHub是Android应用，不支持iOS.
+No, RikkaHub is an Android application and does not support iOS.
 
-## RikkaHub会上传我的聊天记录吗？
+## Will RikkaHub upload my chat history?
 
-不会，RikkaHub完全在本地运行，不会上传你的聊天记录.
-但是你的聊天会被发送给AI提供商，这样AI提供商才可以返回聊天结果，具体隐私政策请参考你使用的AI提供商自己的隐私政策.
+No, RikkaHub runs entirely locally and will not upload your chat history.
+However, your chats will be sent to the AI provider so that they can return chat results. For specific privacy policies, please refer to the privacy policy of the AI provider you are using.
 
-## 支持MCP吗？
+## Does it support MCP?
 
-不支持，安卓很难实现本地运行MCP Server，并且由于沙盒机制，MCP能干的事情很少，所以意义不大.
+No, it is difficult to implement a local MCP Server on Android, and due to the sandbox mechanism, MCP can do very little, so it doesn't make much sense.
 
-## 如何报告错误或者提供建议？
+## How to report errors or provide suggestions?
 
-你可以前往[GitHub](https://github.com/re-ovo/rikkahub/issues)提交issue.
+You can go to [GitHub](https://github.com/re-ovo/rikkahub/issues) to submit an issue.
 
-但报告之前请先前往QQ群寻求帮助，如果群内无法解决，再提交issue.
+However, before reporting, please seek help in the QQ group first. If it cannot be resolved in the group, then submit an issue.
 
-## 可以二次开发吗?
+## Can I do secondary development?
 
-可以，如果用于商业用途，需要申请商业许可。
-参考 [LICENSE](https://github.com/re-ovo/rikkahub/blob/master/LICENSE)
+Yes, if used for commercial purposes, a commercial license is required.
+Refer to [LICENSE](https://github.com/re-ovo/rikkahub/blob/master/LICENSE)

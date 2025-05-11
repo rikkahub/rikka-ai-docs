@@ -1,0 +1,9 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# 项目描述
+
+
+本项目名为rikka-ai-docs，是一个名叫RikkaHub的安卓APP的文档，基于Vitepress构建

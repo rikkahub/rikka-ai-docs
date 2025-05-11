@@ -1,0 +1,17 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# 项目结构
+本项目是一个基于Vitepress的文档站点。
+
+主要目录和文件包括：
+
+*   **[docs/](mdc:docs)**: 存放所有的文档源文件和Vitepress配置。
+    *   **[docs/.vitepress/](mdc:docs/.vitepress)**: Vitepress的配置文件，如站点配置、主题配置等。
+    *   **[docs/zh/](mdc:docs/zh)**: 存放中文文档内容。
+    *   **[docs/index.md](mdc:docs/index.md)**: 文档站点的主页。
+*   **[package.json](mdc:package.json)**: 项目的元数据文件，包含脚本和依赖信息。
+*   **[bun.lock](mdc:bun.lock)**: Bun包管理器的依赖锁定文件。
+
