@@ -40,4 +40,7 @@ features:
 import AppCarousel from '/components/AppCarousel.vue'
 </script>
 
-<AppCarousel />
+<div style="padding-top: 48px;">
+  <h2>App Preview</h2>
+  <AppCarousel />
+</div>

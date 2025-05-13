@@ -36,8 +36,12 @@ features:
 ---
 
 
+
 <script setup lang="ts">
 import AppCarousel from '/components/AppCarousel.vue'
 </script>
 
-<AppCarousel />
+<div style="padding-top: 48px;">
+  <h2>截图</h2>
+  <AppCarousel />
+</div>
