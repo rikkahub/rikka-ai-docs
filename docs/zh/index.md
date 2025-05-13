@@ -35,3 +35,9 @@ features:
     icon: 🔍
 ---
 
+
+<script setup lang="ts">
+import AppCarousel from '/components/AppCarousel.vue'
+</script>
+
+<AppCarousel />
