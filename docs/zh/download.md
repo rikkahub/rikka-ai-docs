@@ -8,7 +8,7 @@ import markdownit from 'markdown-it'
 const md = markdownit()
 
 const version = ref(null)
-fetch('https://rikkahub-updates.rerere.me/')
+fetch('https://updates.rikka-ai.com/')
     .then(res => res.json())
     .then(data => {
         version.value = data
