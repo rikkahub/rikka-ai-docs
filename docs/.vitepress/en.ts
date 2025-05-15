@@ -8,6 +8,7 @@ export default defineConfig({
             { text: "Home", link: "/" },
             { text: "Docs", link: "/docs/basic/get-started", activeMatch: "/docs/" },
             { text: "Download", link: "/download" },
+            { text: "Privacy Policy", link: "/privacy-policy" },
           ],
       
           sidebar: {

@@ -8,6 +8,7 @@ export default defineConfig({
             { text: "主页", link: "/zh/" },
             { text: "文档", link: "/zh/docs/basic/get-started", activeMatch: "/zh/docs/" },
             { text: "下载", link: "/zh/download" },
+            { text: "隐私政策", link: "/zh/privacy-policy" },
           ],
       
           sidebar: {
