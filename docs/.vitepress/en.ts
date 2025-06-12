@@ -20,7 +20,17 @@ export default defineConfig({
                   { text: "FAQ", link: "/docs/basic/qa" },
                   { text: "Keywords", link: "/docs/basic/keywords" },
                 ],
-              }, 
+              },
+              {
+                text: 'Assistants',
+                items: [
+                  { text: 'Basic', link: '/docs/assistants/basic' },
+                  { text: 'Prompt', link: '/docs/assistants/prompt' },
+                  { text: 'Memory', link: '/docs/assistants/memory' },
+                  { text: 'Custom Request', link: '/docs/assistants/custom-request' },
+                  { text: 'MCP', link: '/docs/assistants/mcp' },
+                ]
+              }
             ],
           },
       

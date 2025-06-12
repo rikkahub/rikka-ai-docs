@@ -21,6 +21,16 @@ export default defineConfig({
                   { text: "技术名称解释", link: "/zh/docs/basic/keywords" },
                 ],
               },
+              {
+                text: '助手',
+                items: [
+                  { text: '基础设置', link: '/zh/docs/assistants/basic' },
+                  { text: '提示词', link: '/zh/docs/assistants/prompt' },
+                  { text: '记忆', link: '/zh/docs/assistants/memory' },
+                  { text: '自定义请求', link: '/zh/docs/assistants/custom-request' },
+                  { text: 'MCP', link: '/zh/docs/assistants/mcp' },
+                ]
+              }
             ],
           },
       
