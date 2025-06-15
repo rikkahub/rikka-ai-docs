@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "RikkaHub"
-  text: "全能Android AI助手"
-  tagline: 快速接入各种AI模型
+  text: "一体化安卓AI助手"
+  tagline: 快速集成各种AI模型
   image:
     src: /icon.png
     alt: RikkaHub
@@ -15,26 +15,22 @@ hero:
       link: /download
     - theme: alt
       text: 文档
-      link: /docs/basic/get-started
-    - theme: alt
-      text: 加入群聊
-      link: https://qm.qq.com/q/I8MSU0FkOu
+      link: /zh/docs/basic/get-started
 
 features:
   - title: 多提供商支持
-    details: 支持基于OpenAI, Google协议的各种供应商，支持自定义token, baseUrl
+    details: 支持基于OpenAI和Google协议的各种LLM提供商，支持自定义token和baseUrl
     icon: 💻
-  - title: 原生应用
-    details: 原生技术开发，启动速度飞快，内存占用低
+  - title: 原生开发
+    details: 采用原生技术开发，启动速度极快，内存占用低
     icon: 🚀
   - title: 优雅设计
-    details: 简洁界面设计，基于Material You风格，并支持预测性返回等现代特性
+    details: 简洁的界面设计，基于Material You风格，支持预测性返回手势等现代功能
     icon: 🎨
-  - title: 搜索接入
-    details: 支持接入各种搜索API, 提升LLM准确性
+  - title: 搜索集成
+    details: 支持集成各种搜索API，提高LLM准确性
     icon: 🔍
 ---
-
 
 
 <script setup lang="ts">
@@ -42,6 +38,6 @@ import AppCarousel from '/components/AppCarousel.vue'
 </script>
 
 <div style="padding-top: 48px;">
-  <h2>截图</h2>
+  <h2>应用预览</h2>
   <AppCarousel />
 </div>

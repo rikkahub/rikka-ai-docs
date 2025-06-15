@@ -16,9 +16,6 @@ hero:
     - theme: alt
       text: Documentation
       link: /docs/basic/get-started
-    - theme: alt
-      text: Discord
-      link: https://discord.gg/9weBqxe5c4
 
 features:
   - title: Multi-Provider

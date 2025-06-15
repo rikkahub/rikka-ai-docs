@@ -1,6 +1,8 @@
-# 下载   
+---
+# 下载
+---
 
-下载RikkaHub
+下载 RikkaHub
 
 <script setup lang="ts">
 import { ref } from 'vue'

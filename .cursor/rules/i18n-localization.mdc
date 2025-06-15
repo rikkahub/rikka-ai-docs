@@ -1,0 +1,64 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# 国际化和本地化规则
+
+## 项目国际化配置
+
+本项目支持中英文双语，采用VitePress内置的国际化方案。
+
+### 配置文件结构
+
+- **[docs/.vitepress/config.mts](mdc:docs/.vitepress/config.mts)**: 主配置文件，定义了locales配置
+- **[docs/.vitepress/en.ts](mdc:docs/.vitepress/en.ts)**: 英文版配置，包含英文导航、侧边栏等
+- **[docs/.vitepress/zh.ts](mdc:docs/.vitepress/zh.ts)**: 中文版配置，包含中文导航、侧边栏等
+- **[i18n.ts](mdc:i18n.ts)**: 国际化配置文件（目前为空，需要完善）
+
+### 语言路径规则
+
+- **英文版**: 使用根路径 `/`，如 `/docs/basic/get-started`
+- **中文版**: 使用 `/zh/` 前缀，如 `/zh/docs/basic/get-started`
+
+### 文档目录对应关系
+
+```
+docs/                    # 英文文档根目录
+├── docs/               # 英文文档内容
+│   ├── basic/          # 基础文档
+│   ├── assistants/     # 助手相关文档
+│   └── features/       # 功能文档
+├── index.md            # 英文首页
+├── download.md         # 英文下载页
+└── privacy-policy.md   # 英文隐私政策
+
+docs/zh/                # 中文文档根目录
+├── docs/               # 中文文档内容
+│   ├── basic/          # 基础文档（中文）
+│   └── features/       # 功能文档（中文）
+├── index.md            # 中文首页
+├── download.md         # 中文下载页
+└── privacy-policy.md   # 中文隐私政策
+```
+
+### 本地化最佳实践
+
+1. **内容同步**: 确保中英文版本的文档结构和内容保持同步
+2. **路径一致性**: 中文版路径应与英文版保持相同的层级结构，仅添加 `/zh/` 前缀
+3. **导航配置**: 在 [docs/.vitepress/en.ts](mdc:docs/.vitepress/en.ts) 和 [docs/.vitepress/zh.ts](mdc:docs/.vitepress/zh.ts) 中分别配置对应语言的导航和侧边栏
+4. **社交链接**: 根据目标用户群体配置不同的社交平台链接（如英文版使用Discord，中文版使用QQ群）
+
+### 待完善项目
+
+1. **[i18n.ts](mdc:i18n.ts)** 文件需要添加实际的国际化配置
+2. 中文版缺少 `assistants/` 目录，需要补充完整
+3. 考虑添加语言切换的用户体验优化
+
+### 添加新语言步骤
+
+1. 在 [docs/.vitepress/](mdc:docs/.vitepress) 目录下创建新的语言配置文件
+2. 在 [docs/.vitepress/config.mts](mdc:docs/.vitepress/config.mts) 的 `locales` 中添加新语言配置
+3. 在 [docs/](mdc:docs) 目录下创建对应的语言目录
+4. 翻译所有文档内容并保持目录结构一致
+

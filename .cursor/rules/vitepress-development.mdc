@@ -1,0 +1,86 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# VitePress 开发规则
+
+## 项目技术栈
+
+- **框架**: VitePress 1.6.3
+- **包管理器**: Bun（基于 [bun.lock](mdc:bun.lock) 文件）
+- **构建工具**: Vite（VitePress内置）
+
+## 开发命令
+
+根据 [package.json](mdc:package.json) 中的脚本配置：
+
+```bash
+# 开发模式
+bun run dev
+
+# 构建生产版本
+bun run build
+
+# 预览构建结果
+bun run preview
+```
+
+## 配置文件说明
+
+### 主配置文件
+- **[docs/.vitepress/config.mts](mdc:docs/.vitepress/config.mts)**: VitePress主配置，包含站点基本信息和国际化设置
+
+### 主题配置
+- **[docs/.vitepress/theme/](mdc:docs/.vitepress/theme)**: 自定义主题配置目录
+- 全局配置包含logo设置：`logo: "icon.png"`
+
+### 依赖管理
+
+项目使用的主要依赖：
+- `vitepress`: 核心框架
+- `embla-carousel-vue`: Vue轮播组件
+- `markdown-it`: Markdown处理增强
+- `carousel`: 轮播功能支持
+
+## 文档编写规范
+
+### Markdown文件结构
+- 所有文档文件使用 `.md` 扩展名
+- 英文文档放在 [docs/docs/](mdc:docs/docs) 目录下
+- 中文文档放在 [docs/zh/docs/](mdc:docs/zh/docs) 目录下
+
+### 页面类型
+1. **首页**: [docs/index.md](mdc:docs/index.md) 和 [docs/zh/index.md](mdc:docs/zh/index.md)
+2. **功能页面**: [docs/download.md](mdc:docs/download.md)、[docs/privacy-policy.md](mdc:docs/privacy-policy.md)
+3. **文档页面**: 位于各自的 `docs/` 子目录中
+
+### 组件使用
+- Vue组件存放在 [docs/components/](mdc:docs/components) 目录
+- 可在Markdown中直接使用Vue组件
+
+## 静态资源管理
+
+- **[docs/public/](mdc:docs/public)**: 公共静态资源，构建时会复制到根目录
+- **[docs/assets/](mdc:docs/assets)**: 文档相关的静态资源
+- 图标文件：`icon.png` 和 `favicon.ico`
+
+## 开发最佳实践
+
+1. **热重载**: 开发模式下支持文件变更自动刷新
+2. **类型安全**: 使用TypeScript配置文件（`.mts`扩展名）
+3. **模块化配置**: 将不同语言的配置分离到独立文件
+4. **SEO优化**: 在head中配置favicon和其他meta信息
+
+## 构建和部署
+
+1. **构建输出**: 构建结果位于 [docs/.vitepress/dist/](mdc:docs/.vitepress/dist) 目录
+2. **缓存管理**: [docs/.vitepress/cache/](mdc:docs/.vitepress/cache) 目录用于构建缓存
+3. **静态部署**: 构建后的文件可直接部署到静态托管服务
+
+## 故障排除
+
+- 如果遇到构建问题，可以删除 `cache/` 目录重新构建
+- 确保所有链接路径正确，特别是国际化路径
+- 检查Markdown语法和Vue组件的正确性
+

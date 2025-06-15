@@ -1,17 +1,25 @@
 {
   "private": true,
   "type": "module",
-  "devDependencies": {
-    "vitepress": "^1.6.3"
-  },
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "preview": "vitepress preview docs"
+    "preview": "vitepress preview docs",
+    "translate": "bun run i18n.ts",
+    "translate:zh": "bun run i18n.ts zh",
+    "translate:ja": "bun run i18n.ts ja",
+    "translate:ko": "bun run i18n.ts ko"
   },
   "dependencies": {
     "carousel": "^0.0.3",
     "embla-carousel-vue": "^8.6.0",
     "markdown-it": "^14.1.0"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3",
+    "@types/bun": "^1.2.16",
+    "@types/node": "^24.0.1",
+    "@ai-sdk/google": "^1.2.19",
+    "ai": "^4.3.16"
   }
 }
