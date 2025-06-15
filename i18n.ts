@@ -45,7 +45,7 @@ async function translate(content: string, targetLanguage: string, sourceLanguage
 - 直接返回翻译后的内容，不要添加任何其他内容，也不要用代码块包裹
 - 保持VitePress的所有格式，包括frontmatter、链接、代码块等
 - 翻译要确保内容通顺，符合${targetLanguageName}的语法和习惯
-- 保持技术术语的准确性
+- 保持技术术语的准确性, 不要翻译技术术语, 例如：MCP, HTTP, JSON, Key, Value, etc.
 - 不要翻译代码块中的代码内容
 - 保持链接路径不变，只翻译链接文本，如果链接指向其他文档，请添加路径前缀，例如：/zh/docs/assistants/basic.md
 - 保持图片路径和alt文本的格式
