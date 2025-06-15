@@ -19,7 +19,7 @@ hero:
 
 features:
   - title: Multi-Provider
-    details: Supports various LLM providers based on OpenAI and Google protocols, supports custom tokens and baseUrl
+    details: Supports various LLM providers, including OpenAI, Google, Anthropic, etc.
     icon: 💻
   - title: Native
     details: Developed with native technology, incredibly fast startup speed, low memory usage
@@ -30,6 +30,12 @@ features:
   - title: Search Integration
     details: Supports integrating various search APIs to improve LLM accuracy
     icon: 🔍
+  - title: MCP Support
+    details: Supports connecting to MCP servers to use tools
+    icon: 🔌
+  - title: Custom Request
+    details: Allows you to customize the HTTP request headers and body to get more control over the LLM
+    icon: 🔧
 ---
 
 
