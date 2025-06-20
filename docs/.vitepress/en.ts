@@ -4,6 +4,10 @@ export default defineConfig({
     title: "RikkaHub",
     description: "All-in-one Android LLM UI",
     themeConfig: {
+        editLink: {
+          pattern: "https://github.com/rikkahub/rikka-ai-docs/edit/main/docs/:path",
+          text: "Edit this page",
+        },
         nav: [
             { text: "Home", link: "/" },
             { text: "Docs", link: "/docs/basic/get-started", activeMatch: "/docs/" },

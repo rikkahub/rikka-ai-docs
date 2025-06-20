@@ -4,6 +4,10 @@ export default defineConfig({
     title: "RikkaHub",
     description: "全能Android AI助手",
     themeConfig: {
+        editLink: {
+          pattern: "https://github.com/rikkahub/rikka-ai-docs/edit/main/docs/:path",
+          text: "编辑此页面",
+        },
         nav: [
             { text: "主页", link: "/zh/" },
             { text: "文档", link: "/zh/docs/basic/get-started", activeMatch: "/zh/docs/" },
