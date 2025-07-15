@@ -34,6 +34,17 @@ export default defineConfig({
                   { text: '自定义请求', link: '/zh/docs/assistants/custom-request' },
                   { text: 'MCP', link: '/zh/docs/assistants/mcp' },
                 ]
+              },
+              {
+                text: 'AI 提供商',
+                items: [
+                  { text: 'OpenAI', link: '/zh/docs/provider/openai' },
+                  { text: 'Anthropic', link: '/zh/docs/provider/anthropic' },
+                  { text: 'Google', link: '/zh/docs/provider/google' },
+                  { text: 'New API', link: '/zh/docs/provider/new-api' },
+                  { text: 'Gemini Balance', link: '/zh/docs/provider/gemini-balance' },
+                  { text: 'Hajimi', link: '/zh/docs/provider/hajimi' },
+                ]
               }
             ],
           },

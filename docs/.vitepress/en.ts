@@ -34,6 +34,17 @@ export default defineConfig({
                   { text: 'Custom Request', link: '/docs/assistants/custom-request' },
                   { text: 'MCP', link: '/docs/assistants/mcp' },
                 ]
+              },
+              {
+                text: 'AI Providers',
+                items: [
+                  { text: 'OpenAI', link: '/docs/provider/openai' },
+                  { text: 'Anthropic', link: '/docs/provider/anthropic' },
+                  { text: 'Google', link: '/docs/provider/google' },
+                  { text: 'New API', link: '/docs/provider/new-api' },
+                  { text: 'Gemini Balance', link: '/docs/provider/gemini-balance' },
+                  { text: 'Hajimi', link: '/docs/provider/hajimi' },
+                ]
               }
             ],
           },
